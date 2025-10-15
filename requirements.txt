@@ -1,0 +1,12 @@
+# 精确版本号，确保兼容性
+# 适用于 Python 3.12
+# 基于 numpy 1.26.4 的兼容版本组合
+
+numpy==1.26.4
+scipy==1.13.0
+scikit-learn==1.5.1
+matplotlib==3.9.2
+seaborn==0.13.2
+pandas==2.2.2
+torch==2.4.0
+tqdm==4.66.5
