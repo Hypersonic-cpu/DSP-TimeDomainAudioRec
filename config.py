@@ -58,10 +58,10 @@ SVM_C = 1.0
 SVM_KERNEL = 'rbf'
 
 # MLP
-MLP_HIDDEN_LAYERS = [64, 32]
-MLP_LEARNING_RATE = 0.001
-MLP_EPOCHS = 100
-MLP_BATCH_SIZE = 16
+MLP_HIDDEN_LAYERS = [64, 64, 32]
+MLP_LEARNING_RATE = 0.005
+MLP_EPOCHS = 1000
+MLP_BATCH_SIZE = 108
 
 # ==================== 实验参数 ====================
 TEST_SIZE = 0.2                  # 测试集比例
